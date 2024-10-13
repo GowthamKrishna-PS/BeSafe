@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "BeSafe",
+  "version": "1.0",
+  "description": "Detect and censor harmful language",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["data/harmful_words.txt"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
