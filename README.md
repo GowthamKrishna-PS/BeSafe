@@ -3,7 +3,7 @@
 
 AI-powered(Future_Scope) harmful language detection and censoring Chrome extension tool.
 
-Currently uses a database of harmful_words, in a text file
+Currently uses a database of harmful words stored in a text file.
 
 ## References
 
