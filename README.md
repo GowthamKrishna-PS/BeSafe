@@ -12,4 +12,5 @@ Currently uses a database of harmful words stored in a text file.
 - Bing Liu, Minqing Hu and Junsheng Cheng. (2005). **Opinion Observer: Analyzing and Comparing Opinions on the Web.**. *Proceedings of the 14th International World Wide Web conference (WWW-2005)*.
 
 
+## Note
 Not optimized to work with all web pages
